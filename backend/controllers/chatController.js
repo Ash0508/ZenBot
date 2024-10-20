@@ -1,4 +1,4 @@
-const Chat = require('../models/Chat');
+const Chat = require('../models/Chat'); 
 
 const saveChatMessage = async (req, res) => {
     const { email, content, response } = req.body;
